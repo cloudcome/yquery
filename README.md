@@ -1,6 +1,8 @@
 #yquery
 
-ydr's jquery as yquery
+ydr's jquery as yquery 
+
+__IT IS [A spm package](http://spmjs.io/package/yquery).__
 
 
 #usage
