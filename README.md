@@ -1,14 +1,36 @@
 #yquery
 
+AUTHOR WEBSITE: [http://ydr.me/](http://ydr.me/)
+
 ydr's jquery as yquery 
 
 __IT IS [A spm package](http://spmjs.io/package/yquery).__
 
 
+#between with jQuery
+- 为标准而生，不知道IE9(lte)是什么，我只认识chrome。
+- 没有复杂的兼容考虑，最精简的代码，适合现代浏览器。与jQuery和zepto相比，适用场景略窄。
+- 接近完美的CSS3动画。
+- 可以直接不带浏览器前缀获取、设置CSS。
+- 最大程度的兼容jQuery，0学习成本。
+- 更小的代码体积，加载更快。
+- 有CDN加速，coming soon。
+- 丰富的插件配置，coming soon。
+
+
 #usage
 ````
-$('#demo');
+$(selector, context);
 ````
+
+
+#how to extend
+````
+$.fn.yourPrototypeFunctionName
+$.yourStaticFunctionName
+````
+[一个jquery原型类插件写法模板](http://qianduanblog.com/post/a-jquery-prototype-class-plugin-writing-template.html)
+
 
 
 #DOM CURD

@@ -273,12 +273,30 @@ table.codehilitetable td.code div pre {
   h2, h3 { page-break-after: avoid; }
 }
 </style><title>README</title></head><body><h1 id="yquery"><a name="user-content-yquery" href="#yquery" class="headeranchor-link"  aria-hidden="true"><span class="headeranchor"></span></a>yquery</h1>
+<p>AUTHOR WEBSITE: <a href="http://ydr.me/"><a href="http://ydr.me/"><a href="http://ydr.me/">http://ydr.me/</a></a></a></p>
 <p>ydr&rsquo;s jquery as yquery </p>
 <p><strong>IT IS <a href="http://spmjs.io/package/yquery">A spm package</a>.</strong></p>
+<h1 id="between-with-jquery"><a name="user-content-between-with-jquery" href="#between-with-jquery" class="headeranchor-link"  aria-hidden="true"><span class="headeranchor"></span></a>between with jQuery</h1>
+<ul>
+<li>为标准而生，不知道IE9(lte)是什么，我只认识chrome。</li>
+<li>没有复杂的兼容考虑，最精简的代码，适合现代浏览器。与jQuery和zepto相比，适用场景略窄。</li>
+<li>接近完美的CSS3动画。</li>
+<li>可以直接不带浏览器前缀获取、设置CSS。</li>
+<li>最大程度的兼容jQuery，0学习成本。</li>
+<li>更小的代码体积，加载更快。</li>
+<li>有CDN加速，coming soon。</li>
+<li>丰富的插件配置，coming soon。</li>
+</ul>
 <h1 id="usage"><a name="user-content-usage" href="#usage" class="headeranchor-link"  aria-hidden="true"><span class="headeranchor"></span></a>usage</h1>
-<pre><code>$('#demo');
+<pre><code>$(selector, context);
 </code></pre>
 
+<h1 id="how-to-extend"><a name="user-content-how-to-extend" href="#how-to-extend" class="headeranchor-link"  aria-hidden="true"><span class="headeranchor"></span></a>how to extend</h1>
+<pre><code>$.fn.yourPrototypeFunctionName
+$.yourStaticFunctionName
+</code></pre>
+
+<p><a href="http://qianduanblog.com/post/a-jquery-prototype-class-plugin-writing-template.html">一个jquery原型类插件写法模板</a></p>
 <h1 id="dom-curd"><a name="user-content-dom-curd" href="#dom-curd" class="headeranchor-link"  aria-hidden="true"><span class="headeranchor"></span></a>DOM CURD</h1>
 <ul>
 <li><code>$.fn.appendTo</code></li>
