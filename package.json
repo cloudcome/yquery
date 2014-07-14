@@ -1,18 +1,16 @@
 {
-  "name": "ydrtest",
-  "version": "1.0.0",
-  "description": "ydr test package",
-  "keywords": [],
-  "homepage": "",
-  "author": "",
-  "licenses": "MIT",
-  "spm": {
-    "main": "index.js",
-    "dependencies": {
-      "jquery": "2.1.0"
-    },
-    "engines": {
-      "seajs": "2.2.1"
+    "name": "yquery",
+    "version": "1.7.0",
+    "description": "ydr's jquery as yquery",
+    "keywords": ["jquery", "yquery", "ydr"],
+    "homepage": "https://github.com/cloudcome/yquery",
+    "author": {},
+    "licenses": "MIT",
+    "spm": {
+        "main": "yquery.js",
+        "dependencies": {},
+        "engines": {
+            "seajs": "2.2.1"
+        }
     }
-  }
 }
