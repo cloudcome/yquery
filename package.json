@@ -1,16 +1,20 @@
 {
-    "name": "yquery",
-    "version": "1.7.0",
-    "description": "ydr's jquery as yquery",
-    "keywords": ["jquery", "yquery", "ydr"],
-    "homepage": "https://github.com/cloudcome/yquery",
-    "author": {},
-    "licenses": "MIT",
-    "spm": {
-        "main": "yquery.js",
-        "dependencies": {},
-        "engines": {
-            "seajs": "2.2.1"
-        }
+  "name": "yquery",
+  "version": "1.7.0",
+  "description": "ydr's jquery as yquery",
+  "keywords": [
+    "jquery",
+    "yquery",
+    "ydr"
+  ],
+  "homepage": "https://github.com/cloudcome/yquery",
+  "author": {},
+  "licenses": "MIT",
+  "spm": {
+    "main": "index.js",
+    "dependencies": {},
+    "engines": {
+      "seajs": "2.2.1"
     }
+  }
 }
