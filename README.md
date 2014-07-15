@@ -14,7 +14,7 @@ __IT IS [A spm package](http://spmjs.io/package/yquery).__
 - 可以直接不带浏览器前缀获取、设置CSS。
 - 最大程度的兼容jQuery，0学习成本。
 - 更小的代码体积，加载更快。
-- 有CDN加速，coming soon。
+- 有CDN加速，coming soon。__
 - 丰富的插件配置，coming soon。
 
 
