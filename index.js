@@ -75,7 +75,7 @@ require('./5-event');
 require('./6-animate');
 require('./7-ajax');
 
-$.VERSION = '1.7';
+$.VERSION = '1.7.1';
 $.AUTHOR = 'ydr.me';
 
 module.exports = $;
