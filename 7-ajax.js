@@ -91,11 +91,17 @@ $.extend({
                 }
             }
         };
-
-        xhr.onerror = xhr.onabort = xhr.ontimeout = function() {
+        xhr.onerror = function() {
             deferred.reject(xhr, xhr);
         };
-        
+        xhr.onabort = function() {
+            deferred.reject(xhr, xhr);
+        };
+        xhr.ontimeout = function() {
+            deferred.reject(xhr, xhr);
+        };
+
+
         if (options.isUpload) {
             xhr.upload.onprogress = function(e) {
                 if (e.lengthComputable) deferred.run(xhr, e);
