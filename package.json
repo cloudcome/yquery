@@ -11,10 +11,7 @@
   "author": {},
   "licenses": "MIT",
   "spm": {
-    "main": "index.js",
-    "dependencies": {},
-    "engines": {
-      "seajs": "2.2.1"
-    }
+    "main": "yquery.js",
+    "dependencies": {}
   }
 }

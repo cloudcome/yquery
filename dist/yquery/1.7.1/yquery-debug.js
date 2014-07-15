@@ -1,4 +1,4 @@
-define("yquery/1.7.0/index-debug", ["yquery/1.7.0/0-core-debug", "yquery/1.7.0/1-dom-debug", "yquery/1.7.0/2-modify-debug", "yquery/1.7.0/3-attr-prop-debug", "yquery/1.7.0/4-pos-size-debug", "yquery/1.7.0/5-event-debug", "yquery/1.7.0/6-animate-debug", "yquery/1.7.0/7-ajax-debug", "yquery/1.7.0/Deferred-debug"], function(require, exports, module) {
+define("yquery/1.7.1/yquery-debug", ["yquery/1.7.1/0-core-debug", "yquery/1.7.1/1-dom-debug", "yquery/1.7.1/2-modify-debug", "yquery/1.7.1/3-attr-prop-debug", "yquery/1.7.1/4-pos-size-debug", "yquery/1.7.1/5-event-debug", "yquery/1.7.1/6-animate-debug", "yquery/1.7.1/7-ajax-debug", "yquery/1.7.1/Deferred-debug"], function(require, exports, module) {
   /*!
    * 云淡然的Yquery
    * @author ydr.me
@@ -53,19 +53,19 @@ define("yquery/1.7.0/index-debug", ["yquery/1.7.0/0-core-debug", "yquery/1.7.0/1
    * 模块化
    *
    */
-  var $ = require("yquery/1.7.0/0-core-debug");
-  require("yquery/1.7.0/1-dom-debug");
-  require("yquery/1.7.0/2-modify-debug");
-  require("yquery/1.7.0/3-attr-prop-debug");
-  require("yquery/1.7.0/4-pos-size-debug");
-  require("yquery/1.7.0/5-event-debug");
-  require("yquery/1.7.0/6-animate-debug");
-  require("yquery/1.7.0/7-ajax-debug");
-  $.VERSION = '1.7';
+  var $ = require("yquery/1.7.1/0-core-debug");
+  require("yquery/1.7.1/1-dom-debug");
+  require("yquery/1.7.1/2-modify-debug");
+  require("yquery/1.7.1/3-attr-prop-debug");
+  require("yquery/1.7.1/4-pos-size-debug");
+  require("yquery/1.7.1/5-event-debug");
+  require("yquery/1.7.1/6-animate-debug");
+  require("yquery/1.7.1/7-ajax-debug");
+  $.VERSION = '1.7.1';
   $.AUTHOR = 'ydr.me';
   module.exports = $;
 });
-define("yquery/1.7.0/0-core-debug", [], function(require, exports, module) {
+define("yquery/1.7.1/0-core-debug", [], function(require, exports, module) {
   // 0-core.js
   // 2014年7月15日09:52:56
   /**
@@ -491,10 +491,10 @@ define("yquery/1.7.0/0-core-debug", [], function(require, exports, module) {
     return obj.prototype === udf;
   }
 });
-define("yquery/1.7.0/1-dom-debug", ["yquery/1.7.0/0-core-debug"], function(require, exports, module) {
+define("yquery/1.7.1/1-dom-debug", ["yquery/1.7.1/0-core-debug"], function(require, exports, module) {
   // 1-dom.js
   // 2014年7月15日10:20:15
-  var $ = require("yquery/1.7.0/0-core-debug"),
+  var $ = require("yquery/1.7.1/0-core-debug"),
     win = window,
     doc = win.document,
     htmlElem = doc.documentElement,
@@ -829,10 +829,10 @@ define("yquery/1.7.0/1-dom-debug", ["yquery/1.7.0/0-core-debug"], function(requi
     return array;
   }
 });
-define("yquery/1.7.0/2-modify-debug", ["yquery/1.7.0/0-core-debug"], function(require, exports, module) {
+define("yquery/1.7.1/2-modify-debug", ["yquery/1.7.1/0-core-debug"], function(require, exports, module) {
   // 2-modify.js
   // 2014年7月15日10:57:10
-  var $ = require("yquery/1.7.0/0-core-debug"),
+  var $ = require("yquery/1.7.1/0-core-debug"),
     udf,
     win = window,
     doc = win.document,
@@ -1070,10 +1070,10 @@ define("yquery/1.7.0/2-modify-debug", ["yquery/1.7.0/0-core-debug"], function(re
     }
   }
 });
-define("yquery/1.7.0/3-attr-prop-debug", ["yquery/1.7.0/0-core-debug"], function(require, exports, module) {
+define("yquery/1.7.1/3-attr-prop-debug", ["yquery/1.7.1/0-core-debug"], function(require, exports, module) {
   // 3-attr-prop.js
   // 2014年7月15日12:04:07
-  var $ = require("yquery/1.7.0/0-core-debug"),
+  var $ = require("yquery/1.7.1/0-core-debug"),
     idKey = $._id,
     udf,
     // data MAP
@@ -1334,10 +1334,10 @@ define("yquery/1.7.0/3-attr-prop-debug", ["yquery/1.7.0/0-core-debug"], function
     }
   }
 });
-define("yquery/1.7.0/4-pos-size-debug", ["yquery/1.7.0/0-core-debug"], function(require, exports, module) {
+define("yquery/1.7.1/4-pos-size-debug", ["yquery/1.7.1/0-core-debug"], function(require, exports, module) {
   // 4-pos-size.js
   // 2014年7月15日12:12:45
-  var $ = require("yquery/1.7.0/0-core-debug"),
+  var $ = require("yquery/1.7.1/0-core-debug"),
     udf,
     win = window,
     doc = win.document,
@@ -1572,10 +1572,10 @@ define("yquery/1.7.0/4-pos-size-debug", ["yquery/1.7.0/0-core-debug"], function(
     }
   }
 });
-define("yquery/1.7.0/5-event-debug", ["yquery/1.7.0/0-core-debug"], function(require, exports, module) {
+define("yquery/1.7.1/5-event-debug", ["yquery/1.7.1/0-core-debug"], function(require, exports, module) {
   // 5-event.js
   // 2014年7月15日12:11:53
-  var $ = require("yquery/1.7.0/0-core-debug"),
+  var $ = require("yquery/1.7.1/0-core-debug"),
     udf,
     win = window,
     doc = win.document,
@@ -1973,10 +1973,10 @@ define("yquery/1.7.0/5-event-debug", ["yquery/1.7.0/0-core-debug"], function(req
     return createEvent;
   }
 });
-define("yquery/1.7.0/6-animate-debug", ["yquery/1.7.0/0-core-debug"], function(require, exports, module) {
+define("yquery/1.7.1/6-animate-debug", ["yquery/1.7.1/0-core-debug"], function(require, exports, module) {
   // 6-animate.js
   // 2014年7月15日13:18:41
-  var $ = require("yquery/1.7.0/0-core-debug"),
+  var $ = require("yquery/1.7.1/0-core-debug"),
     udf,
     regNumericCss = /width|height|top|right|bottom|left/i,
     // yquery MAP
@@ -2322,11 +2322,11 @@ define("yquery/1.7.0/6-animate-debug", ["yquery/1.7.0/0-core-debug"], function(r
     yqueryStore[element[idKey]][key] = val;
   }
 });
-define("yquery/1.7.0/7-ajax-debug", ["yquery/1.7.0/0-core-debug", "yquery/1.7.0/Deferred-debug"], function(require, exports, module) {
+define("yquery/1.7.1/7-ajax-debug", ["yquery/1.7.1/0-core-debug", "yquery/1.7.1/Deferred-debug"], function(require, exports, module) {
   // 7-ajax.js
   // 2014年7月15日13:46:49
-  var $ = require("yquery/1.7.0/0-core-debug"),
-    Deferred = require("yquery/1.7.0/Deferred-debug"),
+  var $ = require("yquery/1.7.1/0-core-debug"),
+    Deferred = require("yquery/1.7.1/Deferred-debug"),
     udf,
     win = window,
     doc = win.document,
@@ -2559,7 +2559,7 @@ define("yquery/1.7.0/7-ajax-debug", ["yquery/1.7.0/0-core-debug", "yquery/1.7.0/
     return element;
   }
 });
-define("yquery/1.7.0/Deferred-debug", [], function(require, exports, module) {
+define("yquery/1.7.1/Deferred-debug", [], function(require, exports, module) {
   // Deferred.js
   // 2014年7月15日13:39:10
   module.exports = Deferred;
