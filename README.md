@@ -1,4 +1,4 @@
-#yquery
+#yquery [![spm version](http://spmjs.io/badge/yquery)](http://spmjs.io/package/yquery)
 
 AUTHOR WEBSITE: [http://ydr.me/](http://ydr.me/)
 
