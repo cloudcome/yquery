@@ -7,8 +7,15 @@
     "yquery",
     "ydr"
   ],
-  "homepage": "https://github.com/cloudcome/yquery",
-  "author": {},
+  "author": {
+    "name":"cloudcome",
+    "email":"cloudcome@163.com"
+  },
+  "homepage": "https://ydr.me/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cloudcome/yquery"
+  },
   "licenses": "MIT",
   "spm": {
     "main": "yquery.js",
