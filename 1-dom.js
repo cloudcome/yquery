@@ -164,7 +164,7 @@ $.fn.extend({
                 children = element.parentElement.children,
                 ret = [];
 
-            this.each.call(children, function() {
+            $(children).each(function() {
                 if (!this.isEqualNode(element)) {
                     if (selector) {
                         if (_matchesSelector(this, selector)) ret.push(this);

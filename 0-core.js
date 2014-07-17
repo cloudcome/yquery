@@ -191,7 +191,7 @@ function Yquery(selector, context) {
     }
     // 如果 selector 是元素或数组或者是nodelist
     // 如： $(document.body) 、$([document.body, document.links[0]]) 、 $(document.links)
-    else if (type == 'element' || type == 'array' || type == 'nodelist') {
+    else if (type === 'element' || type === 'array' || type === 'nodelist' || type==='htmlcollection') {
         nodes = selector;
     }
     // 如果 selector 是 window 或 document
