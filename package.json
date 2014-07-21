@@ -9,9 +9,9 @@
   ],
   "author": {
     "name":"cloudcome",
-    "email":"cloudcome@163.com"
+    "email":"cloudcome@163.com",
+    "url": "http://ydr.me"
   },
-  "homepage": "https://ydr.me/",
   "repository": {
     "type": "git",
     "url": "https://github.com/cloudcome/yquery"

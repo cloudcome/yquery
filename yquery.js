@@ -9,7 +9,7 @@
 
 
 var $ = require('./0-core');
-require('./1-dom');
+require('./1-selector');
 require('./2-modify');
 require('./3-attr-prop');
 require('./4-pos-size');
