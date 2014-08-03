@@ -1,6 +1,9 @@
 // 4-pos-size.js
 // 2014年7月15日12:12:45
 
+
+'use strict';
+
 var $ = require('./0-core'),
 	udf,
 	win = window,

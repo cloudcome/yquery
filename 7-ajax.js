@@ -3,6 +3,8 @@
 
 
 
+'use strict';
+
 var $ = require('./0-core'),
     Deferred = require('./Deferred'),
     udf,

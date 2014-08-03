@@ -1,7 +1,7 @@
 // 1-selector.js
 // 2014年7月15日10:20:15
 
-
+'use strict';
 var $ = require('./0-core'),
     win = window,
     doc = win.document,

@@ -2,6 +2,8 @@
 // 2014年7月15日09:52:56
 
 
+'use strict';
+
 /**
  * 初始化返回Yquery对象
  * @param  {String/Element/NodeList/Array/Yquery/Function} selector 选择器、字符串、元素、元素集合、数组、Yquery、回调

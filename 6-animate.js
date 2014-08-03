@@ -2,6 +2,7 @@
 // 2014年7月15日13:18:41
 
 
+'use strict';
 
 var $ = require('./0-core'),
 	udf,

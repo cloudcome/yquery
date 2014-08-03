@@ -1,7 +1,7 @@
 // 5-event.js
 // 2014年7月15日12:11:53
 
-
+'use strict';
 
 var $ = require('./0-core'),
 	udf,

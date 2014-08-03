@@ -2,6 +2,8 @@
 // 2014年7月15日10:57:10
 
 
+'use strict';
+
 var $ = require('./0-core'),
     udf,
     win = window,

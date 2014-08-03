@@ -1,6 +1,9 @@
 // 3-attr-prop.js
 // 2014年7月15日12:04:07
 
+
+'use strict';
+
 var $ = require('./0-core'),
     idKey = $._id,
     udf,
